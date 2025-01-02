@@ -5,7 +5,8 @@ export default {
   ],
   theme: {
     colors:{
-      darkred:'#B90B0B'
+      darkred:'#B90B0B',
+      white:'#FFFFFF'
     },
     extend: {},
   },
