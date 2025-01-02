@@ -6,6 +6,7 @@ import Budgeting from './pages/Budgeting'
 import Investing from './pages/Investing'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
+import "./index.css"
 
 function App() {
   // const [count, setCount] = useState(0)

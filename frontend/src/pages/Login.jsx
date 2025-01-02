@@ -1,8 +1,16 @@
+import  SideBar from '../components/SideBar'
 function Login(){
     return(
         <div>
-            <p> The login Page </p>
+            <div>
+                <SideBar></SideBar> 
+                <div>
+                    
+                </div>
+                
+            </div>
         </div>
+        
     );
 }
 export default Login;
