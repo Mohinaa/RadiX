@@ -1,0 +1,124 @@
+.container {
+    width: 100%;
+    max-width: 1080px;
+  }
+  
+  @media (max-width: 991px) {
+    .container {
+      max-width: 100%;
+    }
+  }
+  
+  .content {
+    gap: 20px;
+    display: flex;
+  }
+  
+  @media (max-width: 991px) {
+    .content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  
+  .textColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .textColumn {
+      width: 100%;
+    }
+  }
+  
+  .textContent {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: start;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin: auto 0;
+  }
+  
+  @media (max-width: 991px) {
+    .textContent {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  
+  .heading {
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+  }
+  
+  @media (max-width: 991px) {
+    .heading {
+      font-size: 40px;
+    }
+  }
+  
+  .description {
+    color: rgb(89, 89, 90);
+    font-size: 24px;
+    font-weight: 400;
+    align-self: stretch;
+    margin-top: 34px;
+  }
+  
+  @media (max-width: 991px) {
+    .description {
+      max-width: 100%;
+    }
+  }
+  
+  .ctaButton {
+    border-radius: 10px;
+    background-color: rgb(185, 11, 11);
+    margin-top: 34px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 7px 32px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 991px) {
+    .ctaButton {
+      padding: 7px 20px;
+    }
+  }
+  
+  .imageColumn {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .imageColumn {
+      width: 100%;
+    }
+  }
+  
+  .heroImage {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+  }
+  
+  @media (max-width: 991px) {
+    .heroImage {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
