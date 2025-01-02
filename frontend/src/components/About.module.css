@@ -1,0 +1,132 @@
+/* General Heading Style (Consistent for all sections) */
+.heading {
+  color: rgb(0, 0, 0);
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+/* Benefits Section */
+.benefitsSection {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  font-family: Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  justify-content: flex-start;
+}
+
+@media (max-width: 991px) {
+  .benefitsSection {
+    margin-top: 40px;
+    padding: 0 15px;
+  }
+}
+
+.introContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  align-items: flex-start;
+  gap: 40px;
+  justify-content: flex-start;
+}
+
+.introContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sectionTitle {
+  composes: heading; /* Applies the consistent heading style */
+}
+
+.sectionDescription {
+  color: #59595a;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-top: 6px;
+}
+
+/* Offerings Header */
+.offeringsHeader {
+  display: flex;
+  width: 100%;
+  max-width: 1080px;
+  margin: 70px auto 0;
+  justify-content: flex-start;
+}
+
+.offeringsTitle {
+  composes: heading; /* Applies the consistent heading style */
+}
+
+/* Cards Section */
+.cardsContainer {
+  display: flex;
+  margin-top: 70px;
+  max-width: 1080px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cardsGrid {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 1080px;
+}
+
+.card {
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 50px;
+}
+
+.cardNumber {
+  color: #262626;
+  text-align: right;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 0.3;
+}
+
+.cardContent {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitle {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cardDescription {
+  color: #4c4c4d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 14px;
+}
+
+

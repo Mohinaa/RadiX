@@ -1,0 +1,110 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Logo Section */
+.brandContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 50px; 
+  }
+  
+  .brandLogo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .brandName {
+    font-size: 24px;
+    font-weight: 900; 
+    color: #000;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+  
+
+/* Navigation Links */
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 60px;
+  margin-left: 650px;
+}
+
+.navLinks li {
+  position: relative;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.navLinks a:hover {
+  color: #b90b0b;
+}
+
+/* Dropdown Menu */
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
+
+.dropdownMenu li {
+  padding: 10px 20px;
+}
+
+.dropdownMenu li a {
+  color: #000;
+  font-size: 16px;
+}
+
+.dropdownMenu li a:hover {
+  color: #b90b0b;
+}
+
+/* Sign In Button */
+.signInButton {
+  border-radius: 10px;
+  background-color: rgb(185, 11, 11);
+  color: #fff;
+  padding: 10px 32px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 40px;
+}
+
+.signInButton:hover {
+  background-color: rgb(150, 0, 0);
+}
