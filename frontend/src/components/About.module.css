@@ -1,137 +1,132 @@
+/* General Heading Style (Consistent for all sections) */
+.heading {
+  color: rgb(0, 0, 0);
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+/* Benefits Section */
 .benefitsSection {
-    align-self: stretch;
-    display: flex;
-    margin-top: 300px;
-    height: 979px;
-    width: 100%;
-    flex-direction: column;
-    font-family: Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
-    justify-content: start;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  font-family: Be Vietnam Pro, -apple-system, Roboto, Helvetica, sans-serif;
+  justify-content: flex-start;
+}
+
+@media (max-width: 991px) {
+  .benefitsSection {
+    margin-top: 40px;
+    padding: 0 15px;
   }
-  
-  @media (max-width: 991px) {
-    .benefitsSection {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  
-  .introContainer {
-    display: flex;
-    height: 364px;
-    width: 100%;
-    align-items: end;
-    gap: 40px 300px;
-    justify-content: start;
-  }
-  
-  @media (max-width: 991px) {
-    .introContainer {
-      max-width: 100%;
-    }
-  }
-  
-  .introContent {
-    display: flex;
-    min-width: 240px;
-    min-height: 381px;
-    width: 100%;
-    flex-direction: column;
-    justify-content: start;
-    flex: 1;
-    flex-basis: 0%;
-  }
-  
-  @media (max-width: 991px) {
-    .introContent {
-      max-width: 100%;
-    }
-  }
-  
-  .sectionTitle {
-    color: var(--Grey-15, #262626);
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 72px;
-  }
-  
-  @media (max-width: 991px) {
-    .sectionTitle {
-      max-width: 100%;
-      font-size: 40px;
-      line-height: 67px;
-    }
-  }
-  
-  .sectionDescription {
-    color: var(--Grey-35, #59595a);
-    font-size: 23px;
-    font-weight: 400;
-    line-height: 35px;
-    margin-top: 6px;
-  }
-  
-  @media (max-width: 991px) {
-    .sectionDescription {
-      max-width: 100%;
-    }
-  }
-  
-  .offeringsHeader {
-    display: flex;
-    margin-top: 70px;
-    min-height: 88px;
-    width: 100%;
-    align-items: end;
-    gap: 40px 300px;
-    font-size: 48px;
-    color: var(--Grey-15, #262626);
-    font-weight: 600;
-    justify-content: start;
-  }
-  
-  @media (max-width: 991px) {
-    .offeringsHeader {
-      max-width: 100%;
-      margin-top: 40px;
-      font-size: 40px;
-    }
-  }
-  
-  .offeringsTitle {
-    min-width: 240px;
-    width: 100%;
-    flex: 1;
-  }
-  
-  .cardsContainer {
-    display: flex;
-    margin-top: 70px;
-    min-height: 478px;
-    width: 100%;
-    flex-direction: column;
-    justify-content: start;
-  }
-  
-  @media (max-width: 991px) {
-    .cardsContainer {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  
-  .cardsGrid {
-    display: flex;
-    min-height: 411px;
-    width: 100%;
-    align-items: start;
-    gap: 20px;
-    justify-content: start;
-    flex-wrap: wrap;
-  }
-  
-  @media (max-width: 991px) {
-    .cardsGrid {
-      max-width: 100%;
-    }
-  }
+}
+
+.introContainer {
+  display: flex;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  align-items: flex-start;
+  gap: 40px;
+  justify-content: flex-start;
+}
+
+.introContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sectionTitle {
+  composes: heading; /* Applies the consistent heading style */
+}
+
+.sectionDescription {
+  color: #59595a;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-top: 6px;
+}
+
+/* Offerings Header */
+.offeringsHeader {
+  display: flex;
+  width: 100%;
+  max-width: 1080px;
+  margin: 70px auto 0;
+  justify-content: flex-start;
+}
+
+.offeringsTitle {
+  composes: heading; /* Applies the consistent heading style */
+}
+
+/* Cards Section */
+.cardsContainer {
+  display: flex;
+  margin-top: 70px;
+  max-width: 1080px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cardsGrid {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 1080px;
+}
+
+.card {
+  border-radius: 12px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 50px;
+}
+
+.cardNumber {
+  color: #262626;
+  text-align: right;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 0.3;
+}
+
+.cardContent {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitle {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.cardDescription {
+  color: #4c4c4d;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 14px;
+}
+
+
