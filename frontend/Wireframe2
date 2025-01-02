@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadiX Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #007BFF;
+        }
+
+        .welcome-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .welcome-section img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .progress-section {
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        .progress-card {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .progress-card .progress-circle {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .progress-card:nth-child(1) .progress-circle {
+            background: #FFD7D7;
+            color: #D63333;
+        }
+
+        .progress-card:nth-child(2) .progress-circle {
+            background: #E7D7FF;
+            color: #6B33D6;
+        }
+
+        .progress-card:nth-child(3) .progress-circle {
+            background: #FFEFD7;
+            color: #D67F33;
+        }
+
+        .progress-card:nth-child(4) .progress-circle {
+            background: #D7F5FF;
+            color: #33A2D6;
+        }
+
+        .progress-card .progress-info {
+            flex-grow: 1;
+        }
+
+        .progress-card .progress-info h3 {
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .progress-card .progress-info p {
+            font-size: 14px;
+            color: #666;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="RadiX-Logo.png" alt="RadiX Logo">
+            RadiX
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Courses</a>
+        </nav>
+        <img src="Mohina.png" alt="Profile" style="width: 40px; border-radius: 50%;">
+    </header>
+
+    <div class="welcome-section">
+        <img src="Calendar.png" alt="Calendar">
+        <h1>Hi, Mohina! Welcome</h1>
+    </div>
+
+    <div class="progress-section">
+        <h2>Progress</h2>
+
+        <div class="progress-card">
+            <div class="progress-circle">80%</div>
+            <div class="progress-info">
+                <h3>Credit Score</h3>
+                <p>Redesign all the screen</p>
+            </div>
+        </div>
+
+        <div class="progress-card">
+            <div class="progress-circle">85%</div>
+            <div class="progress-info">
+                <h3>Taxes</h3>
+                <p>Design all the screen</p>
+            </div>
+        </div>
+
+        <div class="progress-card">
+            <div class="progress-circle">68%</div>
+            <div class="progress-info">
+                <h3>Budgeting</h3>
+                <p>Design all the screen</p>
+            </div>
+        </div>
+
+        <div class="progress-card">
+            <div class="progress-circle">68%</div>
+            <div class="progress-info">
+                <h3>Investment</h3>
+                <p>Design all the screen</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
