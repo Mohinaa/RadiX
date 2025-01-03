@@ -3,13 +3,14 @@ import NavBar from "../components/NavBar";
 import styles from "./Home.module.css";
 import About from "../components/About";
 import Community from "../components/Community";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
     <div>
       <NavBar />
       <div className={styles.mainContent}>
-        <section className={styles.container}>
+        <section id = "home" className={styles.container}>
           <div className={styles.content}>
             <div className={styles.textColumn}>
               <div className={styles.textContent}>

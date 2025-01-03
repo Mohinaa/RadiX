@@ -18,7 +18,7 @@ const NavBar = () => {
       {/* Navigation Links */}
       <ul className={styles.navLinks}>
         <li>
-          <Link to ="/"><a>Home</a></Link>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
