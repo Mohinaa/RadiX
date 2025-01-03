@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./NavBar.module.css";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -18,27 +18,36 @@ const NavBar = () => {
       {/* Navigation Links */}
       <ul className={styles.navLinks}>
         <li>
-          <a href="#home">Home</a>
+          <a href="/#home">Home</a> {/* Absolute links to ensure proper navigation */}
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="/#about">About</a> {/* Absolute links for Home page sections */}
         </li>
         <li className={styles.dropdown}>
-          <Link to = "/courses"> <a>Courses ▾</a></Link>
+          <Link to="/courses">Courses ▾</Link> {/* Courses main page */}
           <ul className={styles.dropdownMenu}>
-            <Link to ="/credit-score"><li><a>Credit Score</a></li></Link>
-            <Link to = "/taxes"><li><a>Taxes</a></li></Link>
-            <Link to="/investing"><li><a>Investment</a></li></Link>
-            <Link to="/budgeting"><li><a>Budgeting</a></li></Link>
+            <li>
+              <Link to="/credit-score">Credit Score</Link>
+            </li>
+            <li>
+              <Link to="/taxes">Taxes</Link>
+            </li>
+            <li>
+              <Link to="/investing">Investment</Link>
+            </li>
+            <li>
+              <Link to="/budgeting">Budgeting</Link>
+            </li>
           </ul>
         </li>
       </ul>
 
-      <Link to = "/login"><button className={styles.signInButton}>Sign in</button></Link>
+      <Link to="/login">
+        <button className={styles.signInButton}>Sign in</button>
+      </Link>
     </nav>
   );
 };
-
 
 export default NavBar;
 

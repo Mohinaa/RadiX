@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route  } from 'react-router-dom';
 import Home from './pages/Home'
 import Courses from './pages/Courses'
 import Budgeting from './pages/Courses/Budgeting'
-import Investing from './pages/Courses/Investing'
+import Investments from './pages/Courses/Investments';
 import Taxes from './pages/Courses/Taxes'
 import CreditScore from './pages/Courses/CreditScore'
 import Login from './pages/Login'
@@ -21,7 +21,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/courses" element={<Courses />} />
-            <Route path="/investing"  element={<Investing />} />
+            <Route path="/investments"  element={<Investments />} />
             <Route path="/budgeting" element={<Budgeting />} />
             <Route path="/taxes" element={<Taxes />} />
             <Route path="/credit-score" element={<CreditScore />} />
