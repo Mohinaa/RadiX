@@ -26,15 +26,14 @@ const NavBar = () => {
         <li className={styles.dropdown}>
           <Link to = "/courses"> <a>Courses ▾</a></Link>
           <ul className={styles.dropdownMenu}>
-            <li><a href="#credit-score">Credit Score</a></li>
-            <li><a href="#taxes">Taxes</a></li>
-            <li><a href="#investment">Investment</a></li>
-            <li><a href="#budgeting">Budgeting</a></li>
+            <Link to ="/credit-score"><li><a>Credit Score</a></li></Link>
+            <Link to = "/taxes"><li><a href="#taxes">Taxes</a></li></Link>
+            <Link to="/investing"><li><a href="#investment">Investment</a></li></Link>
+            <Link to="/budgeting"><li><a href="#budgeting">Budgeting</a></li></Link>
           </ul>
         </li>
       </ul>
 
-      {/* Sign In Button */}
       <Link to = "/login"><button className={styles.signInButton}>Sign in</button></Link>
     </nav>
   );
