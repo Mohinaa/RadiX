@@ -1,0 +1,152 @@
+[
+    {
+        "type": "article",
+        "title": "What is a Credit Card?",
+        "body": [
+            "A credit card is a way to borrow money from a bank. When you use it to buy something, you are using the bank's money. You must pay this money back to the bank later.",
+            "Important Facts About Credit Cards:",
+            "1. The bank tells you how much you can spend",
+            "2. You must pay the money back each month",
+            "3. If you don't pay all the money back, you pay extra costs",
+            "4. The bank sends you a bill each month showing what you bought",
+            "Good Things About Credit Cards:",
+            "- You can buy things when you need them",
+            "- You can buy things on the internet",
+            "- Many banks give you rewards",
+            "- You can use them in emergencies",
+            "Problems to Watch For:",
+            "- Easy to spend too much",
+            "- Extra costs if you don't pay on time",
+            "- Some cards cost money every year to use",
+            "- Someone might steal your card information",
+            "How to Use Cards Safely:",
+            "1. Only buy what you can pay for",
+            "2. Pay all money back each month",
+            "3. Keep your card information private",
+            "4. Check your bill for mistakes",
+            "5. Track your spending"
+        ]
+    },
+    {
+        "type": "article",
+        "title": "What is a Credit Score?",
+        "body": [
+            "A credit score is a number that shows banks if you are good at paying back money. Think of it like a grade for how you handle money.",
+            "Important Things About Credit Scores:",
+            "1. Scores go from 300 to 850",
+            "2. Higher numbers are better",
+            "3. Banks look at this number before lending you money",
+            "4. Your score changes based on how you use money",
+            "Why Your Score Matters:",
+            "- Banks use it to decide if they will lend you money",
+            "- It affects how much extra money (interest) you pay",
+            "- Landlords look at it when you want to rent a home",
+            "- Some jobs check it before hiring you"
+        ]
+    },
+    {
+        "type": "article",
+        "title": "Why is Credit Important?",
+        "body": [
+            "Credit is important because it helps you do big things in life. Good credit makes life easier and saves you money.",
+            "Ways Credit Helps You:",
+            "1. Rent an apartment more easily",
+            "2. Pay less money when borrowing",
+            "3. Get better credit cards",
+            "4. Sometimes helps get a job",
+            "Things That Need Good Credit:",
+            "- Buying a car",
+            "- Getting a home",
+            "- Starting a business",
+            "- Getting some jobs",
+            "Bad Credit Problems:",
+            "- Having to pay more money to borrow",
+            "- Getting turned down for apartments",
+            "- Having trouble getting good credit cards",
+            "- Paying more for car insurance"
+        ]
+    },
+    {
+        "type": "article",
+        "title": "How to Build Good Credit",
+        "body": [
+            "Building good credit takes time. Here are simple ways to build good credit:",
+            "Easy Steps to Good Credit:",
+            "1. Pay all bills on time",
+            "2. Don't use all your credit",
+            "3. Keep old credit cards open",
+            "4. Don't apply for too many cards",
+            "Things to Avoid:",
+            "- Missing payments",
+            "- Using too much credit",
+            "- Closing old credit cards",
+            "- Applying for many new cards at once"
+        ]
+    },
+    {
+        "type": "flashcard",
+        "title": "Payment History",
+        "front": "What is Payment History?",
+        "back": [
+            "Payment history means if you pay bills on time.",
+            "It is the most important part of your credit score.",
+            "Late payments hurt your score a lot.",
+            "Always pay at least the minimum amount on time."
+        ]
+    },
+    {
+        "type": "flashcard",
+        "title": "Credit Utilization",
+        "front": "What is Credit Utilization?",
+        "back": [
+            "Credit utilization is how much of your credit you use.",
+            "Try to use less than 30% of your credit limit.",
+            "Example: If you can borrow $1,000, try to use less than $300.",
+            "Lower utilization means better credit scores."
+        ]
+    },
+    {
+        "type": "flashcard",
+        "title": "Length of Credit History",
+        "front": "What is Length of Credit History?",
+        "back": [
+            "This is how long you have had credit.",
+            "Longer history is better for your score.",
+            "Keep old credit cards open to have longer history.",
+            "New credit users will have lower scores at first."
+        ]
+    },
+    {
+        "type": "flashcard",
+        "title": "Credit Card Interest",
+        "front": "What is Credit Card Interest?",
+        "back": [
+            "Extra money you pay when you don't pay your full bill.",
+            "Interest makes your purchases more expensive.",
+            "You can avoid interest by paying your full bill each month.",
+            "Interest rates are usually very high on credit cards."
+        ]
+    },
+    {
+        "type": "flashcard",
+        "title": "Credit Limit",
+        "front": "What is a Credit Limit?",
+        "back": [
+            "The most money you can borrow on your credit card.",
+            "The bank decides your limit based on your credit score.",
+            "Going over your limit can cost extra money.",
+            "Higher limits can help your credit score if you don't use them."
+        ]
+    },
+    {
+        "type": "flashcard",
+        "title": "Minimum Payment",
+        "front": "What is a Minimum Payment?",
+        "back": [
+            "The smallest amount you must pay each month.",
+            "Paying only the minimum means paying more interest.",
+            "Always try to pay more than the minimum.",
+            "Missing minimum payments hurts your credit score badly."
+        ]
+    }
+]

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Understanding Credit - Interactive Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+    .module {
+        padding: 20px;
+        padding-top: 100px;
+        font-family: 'Poppins', sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    .articleSection {
+        text-align: left;
+        margin-bottom: 40px;
+        background: white;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .article {
+        margin-bottom: 20px;
+    }
+    
+    .article h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #f0f0f0;
+    }
+    
+    .article p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: rgb(89, 89, 90);
+        margin-bottom: 15px;
+    }
+    
+    .subtitle {
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin: 40px 0 20px;
+        text-align: center;
+        color: #333;
+    }
+    
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .flashCard {
+        perspective: 1000px;
+        width: 300px;
+        height: 400px;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .flashCardInner {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.6s;
+    }
+    
+    .flashCard:hover .flashCardInner {
+        transform: rotateY(180deg);
+    }
+    
+    .flashCardFront,
+    .flashCardBack {
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+    
+    .flashCardFront {
+        background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #333;
+    }
+    
+    .flashCardBack {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        transform: rotateY(180deg);
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #495057;
+    }
+
+    .list {
+        list-style-type: none;
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .list li {
+        margin-bottom: 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .list li:before {
+        content: "•";
+        color: #007bff;
+        position: absolute;
+        left: 0;
+    }
+
+    .highlight {
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 15px 0;
+        border-left: 4px solid #007bff;
+    }
+    </style>
+</head>
+<body>
+    <div class="module">
+        <h1 class="title">Understanding Credit: Your Complete Guide</h1>
+
+        <div class="articleSection">
+            <div class="article">
+                <h2>What is a Credit Card?</h2>
+                <p>A credit card is a way to borrow money from a bank. When you use it to buy something, you are using the bank's money. You must pay this money back to the bank later.</p>
+                
+                <div class="highlight">
+                    <strong>Important Facts:</strong>
+                    <ul class="list">
+                        <li>The bank tells you how much you can spend</li>
+                        <li>You must pay the money back each month</li>
+                        <li>If you don't pay all the money back, you pay extra costs</li>
+                        <li>The bank sends you a bill each month showing what you bought</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="article">
+                <h2>What is a Credit Score?</h2>
+                <p>A credit score is a number that shows banks if you are good at paying back money. Think of it like a grade for how you handle money.</p>
+                
+                <div class="highlight">
+                    <strong>Key Points:</strong>
+                    <ul class="list">
+                        <li>Scores go from 300 to 850</li>
+                        <li>Higher numbers are better</li>
+                        <li>Banks look at this number before lending you money</li>
+                        <li>Your score changes based on how you use money</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="subtitle">Interactive Flashcards</h2>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">Hover over the cards to reveal more information</p>
+        
+        <div class="container">
+            <div class="flashCard">
+                <div class="flashCardInner">
+                    <div class="flashCardFront">
+                        <h3>What is Payment History?</h3>
+                    </div>
+                    <div class="flashCardBack">
+                        <ul class="list">
+                            <li>Shows if you pay bills on time</li>
+                            <li>Most important part of your credit score</li>
+                            <li>Late payments hurt your score a lot</li>
+                            <li>Always pay at least the minimum on time</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flashCard">
+                <div class="flashCardInner">
+                    <div class="flashCardFront">
+                        <h3>What is Credit Utilization?</h3>
+                    </div>
+                    <div class="flashCardBack">
+                        <ul class="list">
+                            <li>How much of your credit you use</li>
+                            <li>Keep it under 30% for good credit</li>
+                            <li>Example: Use less than $300 of a $1,000 limit</li>
+                            <li>Lower utilization = better credit score</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flashCard">
+                <div class="flashCardInner">
+                    <div class="flashCardFront">
+                        <h3>Credit Card Interest</h3>
+                    </div>
+                    <div class="flashCardBack">
+                        <ul class="list">
+                            <li>Extra money you pay when you don't pay in full</li>
+                            <li>Makes your purchases more expensive</li>
+                            <li>Avoid it by paying your full bill monthly</li>
+                            <li>Usually very high on credit cards</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
