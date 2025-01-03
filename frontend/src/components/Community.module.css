@@ -1,0 +1,83 @@
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 20px;
+  }
+  
+  .title {
+    color: #000;
+    font-size: 48px; 
+    font-weight: 700;
+    text-align: left; 
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    color: rgba(89, 89, 90, 0.9); 
+    font-size: 20px; 
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left; 
+  }
+  
+  .ctaButton {
+    border-radius: 10px;
+    background-color: rgb(185, 11, 11);
+    color: #fff;
+    padding: 10px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: rgb(150, 0, 0);
+  }
+  
+  .avatars {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .avatar {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 94px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+  }
+  .ctaButton {
+    border-radius: 10px;
+    background-color: rgb(185, 11, 11);
+    color: #fff;
+    padding: 10px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none; 
+    text-align: center;
+    display: inline-block; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: rgb(150, 0, 0);
+  }
+   
+  
