@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./NavBar.module.css";
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -34,7 +35,7 @@ const NavBar = () => {
       </ul>
 
       {/* Sign In Button */}
-      <button className={styles.signInButton}>Sign in</button>
+      <Link to = "/login"><button className={styles.signInButton}>Sign in</button></Link>
     </nav>
   );
 };

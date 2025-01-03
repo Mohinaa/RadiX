@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import styles from "./Home.module.css";
 import About from "../components/About";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -17,13 +18,15 @@ export default function Home() {
                   Empowering international students with financial confidence
                   through interactive learning and community support.
                 </p>
-                <button
-                  className={styles.ctaButton}
-                  tabIndex={0}
-                  aria-label="Start learning"
-                >
-                  Start learning
-                </button>
+                <Link to ="/signup">
+                  <button
+                    className={styles.ctaButton}
+                    tabIndex={0}
+                    aria-label="Start learning"
+                  >
+                    Start learning
+                  </button>
+                </Link>
               </div>
             </div>
             <div className={styles.imageColumn}>
