@@ -50,7 +50,7 @@
 }
 
 .sectionTitle {
-  composes: heading; /* Applies the consistent heading style */
+  composes: heading; 
 }
 
 .sectionDescription {

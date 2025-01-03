@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import styles from "./Home.module.css";
 import About from "../components/About";
+import Community from "../components/Community";
 import { Link } from 'react-router-dom';
 
 export default function Home() {
@@ -39,10 +40,14 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id = "#about">
+        <section>
           <About />
+        </section>
+        <section id="community">
+          <Community />
         </section>
       </div>
     </div>
   );
 }
+
