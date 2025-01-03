@@ -18,7 +18,7 @@ export default function Home() {
                   Empowering international students with financial confidence
                   through interactive learning and community support.
                 </p>
-                <Link to ="/signup">
+                <Link to ="/courses">
                   <button
                     className={styles.ctaButton}
                     tabIndex={0}
@@ -39,7 +39,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section id = "#about">
           <About />
         </section>
       </div>
