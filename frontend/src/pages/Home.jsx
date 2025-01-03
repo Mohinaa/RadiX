@@ -3,7 +3,6 @@ import NavBar from "../components/NavBar";
 import styles from "./Home.module.css";
 import About from "../components/About";
 import Community from "../components/Community";
-import { Link } from 'react-router-dom';
 
 export default function Home() {
   return (
@@ -40,7 +39,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section id="about">
           <About />
         </section>
         <section id="community">
