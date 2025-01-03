@@ -1,6 +1,6 @@
 .container {
-    padding-top: 80px; /* Adjust to prevent NavBar overlap */
-    font-family: 'Poppins', sans-serif; /* Match the Home page font */
+    padding-top: 80px; 
+    font-family: 'Poppins', sans-serif; 
   }
   
   .content {
@@ -14,13 +14,13 @@
   
   .header h1 {
     font-size: 2.5rem;
-    font-weight: 700; /* Match the Home page font weight */
-    color: rgb(0, 0, 0); /* Match Home page heading color */
+    font-weight: 700; 
+    color: rgb(0, 0, 0); 
   }
   
   .header p {
-    color: rgb(89, 89, 90); /* Match Home page description color */
-    font-size: 1.25rem; /* Consistent with Home page description size */
+    color: rgb(89, 89, 90); 
+    font-size: 1.25rem; 
     font-weight: 400;
   }
   
@@ -47,13 +47,13 @@
     margin-top: 10px;
     text-align: center;
     font-size: 1rem;
-    color: rgb(89, 89, 90); /* Match Home page text color */
-    font-weight: 400; /* Match Home page text weight */
+    color: rgb(89, 89, 90); 
+    font-weight: 400; 
   }
   
   .courseList {
     display: flex;
-    flex-direction: column; /* Arrange items in a column */
+    flex-direction: column; 
     gap: 20px;
   }
   
@@ -63,37 +63,37 @@
     border-radius: 8px;
     padding: 20px;
     width: 100%;
-    max-width: 900px; /* Increase max width for wider boxes */
-    margin: 0 auto; /* Center horizontally */
+    max-width: 900px; 
+    margin: 0 auto; 
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-weight: 700; /* Match Home page card text weight */
-    font-size: 1rem; /* Standardize font size */
+    font-weight: 700; 
+    font-size: 1rem; 
   }
   
   .courseCard h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: rgb(0, 0, 0); /* Match Home page heading color */
-    font-weight: 700; /* Match Home page font weight */
+    color: rgb(0, 0, 0); 
+    font-weight: 700; 
   }
   
   .courseCard p {
-    color: rgb(89, 89, 90); /* Match Home page text color */
+    color: rgb(89, 89, 90); 
     margin-bottom: 15px;
     font-size: 1rem;
-    font-weight: 400; /* Match Home page text weight */
+    font-weight: 400; 
   }
   
   .courseCard button {
     background-color: rgb(185, 11, 11); 
     color: white;
-    font-weight: bold; /* Match Home page button text weight */
+    font-weight: bold; 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1rem; /* Standardize button font size */
+    font-size: 1rem; 
     transition: background-color 0.3s ease;
   }
   
@@ -103,7 +103,7 @@
   
   @media (max-width: 900px) {
     .courseCard {
-      max-width: 100%; /* Allow cards to take full width on smaller screens */
+      max-width: 100%; 
     }
   }
   
